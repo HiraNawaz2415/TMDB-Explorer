@@ -28,7 +28,7 @@ Once the app is launched, use the sidebar to select a category:
 - This application utilizes the TMDb (The Movie Database) API to fetch movie and TV data. You will need to provide your own API Read Access Token from TMDb's API to use the app.
 
 ## Future Enhancements
-- **Pagination:**Fetch more pages of results based on user preferences.
+- **Pagination:** Fetch more pages of results based on user preferences.
 
 - **Search functionality:** Allow users to search for specific movies, TV shows, or celebrities.
 
