@@ -11,16 +11,26 @@ The **TMDb Explorer** is a Streamlit web application that allows users to explor
 - **Upcoming Movies**: Get a list of upcoming movie releases.
 - **Popular People**: Explore popular celebrities known for their work in movies and TV.
 - **Dark/Light Mode Toggle**: Switch between dark and light themes for better user experience.
+## How to Use
+Once the app is launched, use the sidebar to select a category:
 
-## Requirements
+- **Top Rated Movies:** Displays the highest-rated movies.
 
-To run this app locally, you need to have the following Python libraries installed:
+- **Popular TV Shows:** Lists the most popular TV shows.
 
-- `streamlit`
-- `requests`
-- `pandas`
+- **Upcoming Movies:** Shows upcoming movie releases.
 
-You can install them using the following command:
+- **Popular People: **Displays popular people (actors, directors, etc.).
 
-```bash
-pip install streamlit requests pandas
+-You can toggle between Dark Mode and Light Mode using the sidebar for a personalized theme.
+
+## API Used
+- This application utilizes the TMDb (The Movie Database) API to fetch movie and TV data. You will need to provide your own API Read Access Token from TMDb's API to use the app.
+
+## Future Enhancements
+- **Pagination:**Fetch more pages of results based on user preferences.
+
+- **Search functionality:** Allow users to search for specific movies, TV shows, or celebrities.
+
+- **Movie/TV Show detail page:** Display more detailed information on individual movie/TV show pages.
+
