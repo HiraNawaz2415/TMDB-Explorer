@@ -1,0 +1,12 @@
+## Requirements
+
+To run this app locally, you need to have the following Python libraries installed:
+
+- `streamlit`
+- `requests`
+- `pandas`
+
+You can install them using the following command:
+
+```bash
+pip install streamlit requests pandas
